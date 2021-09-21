@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Auto Тестовое задание (Trainee)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <h2>1</h2>
+        <div class="num-match">
+            <label>
+                <span>Введите число (желательно больше 7)</span>
+                <input class="num-match__input" type="number" placeholder="Ваше число">
+            </label>
+            <button class="num-match__btn">Отправить</button>
+
+            <div class="num-match__result"></div>
+        </div>
+
+        <h2>2</h2>
+        <div class="name-match">
+            <label>
+                <span>Введите имя (например Вячеслав)</span>
+                <input class="name-match__input" placeholder="Ваше имя" type="text">
+            </label>
+            <button class="name-match__btn">Отправить</button>
+
+            <div class="name-match__result"></div>
+        </div>
+
+        <h2>3</h2>
+        <div class="num-multiples">
+            <div class="num-multiples__box">
+                <div class="num-multiples__add-num">
+                    <div>Добавить число в массив</div>
+                    <input class="num-multiples__add-num-input" type="number" placeholder="Ваше число">
+                    <button class="num-multiples__add-num-btn">+</button>
+                </div>
+
+                <div class="num-multiples__array">
+                    <div>Мой массив</div>
+                    <div class="num-multiples__array-my"></div>
+                </div>
+
+                <div class="num-multiples__array-edited">
+                    <div>Элементы массива кратные 3</div>
+                    <div class="num-multiples__array-edited-wrap"></div>
+                    <button class="num-multiples__array-edited-btn">Сформировать массив</button>
+                </div>
+            </div>
+        </div>
+
+        <h2>4</h2>
+        <div>
+            Дана скобочная последовательность: <b>[((())()(())]]</b> <br>
+            - Можно ли считать эту последовательность правильной? <br>
+            - Если ответ на предыдущий вопрос “нет” - то что необходимо в ней изменить, чтоб она стала правильной?
+        </div>
+        <hr>
+        <div>
+            Нет. Эта последовательность неправильная. <br>
+            Необходимо добавить, в начале, вторую открывающую квадратную скобку <b>[</b>  <br>
+            Необходимо добавить закрывающую круглую скобку <b>)</b> в конце, перед закрывающими квадратными скобками. <br>
+            Такая последовательность будет правильной <b>[[((())()(()))]]</b>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

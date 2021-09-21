@@ -1,0 +1,129 @@
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.num-match {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.num-match label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.num-match label span {
+    margin-bottom: 10px;
+}
+
+.num-match label input {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.num-match__result {
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+/********************************/
+
+
+.name-match {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.name-match label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.name-match label span {
+    margin-bottom: 10px;
+}
+
+.name-match label input {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.name-match__result {
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/********************************/
+
+.num-multiples {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.num-multiples__add-num {
+    margin-bottom: 25px;
+}
+
+.num-multiples__array {
+    margin-bottom: 25px;
+}
+
+.num-multiples__array div {
+    margin-bottom: 7px;
+}
+
+.num-multiples__array-edited {
+    display: flex;
+    flex-direction: column;
+}
+
+.num-multiples__array-edited-wrap {
+    margin: 7px 0;
+}
+
+.num-multiples__array-my, .num-multiples__array-edited-wrap {
+    padding: 5px 10px;
+    min-height: 24px;
+    border-bottom: 1px solid grey;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.num-multiples__add-num div{
+    margin-bottom: 7px;
+}
